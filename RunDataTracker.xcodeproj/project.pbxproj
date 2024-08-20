@@ -74,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				5079822F257677FC0038A28D /* imgui_tables.cpp */,
+				7FE400212C74CA090056E080 /* fonts */,
 				4080A9AC20B0343C0036BA46 /* imconfig.h */,
 				4080A9A720B0343C0036BA46 /* imgui.cpp */,
 				4080A9A820B0343C0036BA46 /* imgui.h */,
@@ -82,7 +83,6 @@
 				4080A9AA20B0343C0036BA46 /* imgui_draw.cpp */,
 				4080A9A520B0343C0036BA46 /* imgui_internal.h */,
 				4080A99E20B034280036BA46 /* imgui_impl_opengl2.cpp */,
-				7FE400202C74C1700056E080 /* Cousine-Regular.ttf */,
 				4080A9A020B034280036BA46 /* imgui_impl_opengl2.h */,
 				4080A9A120B034280036BA46 /* imgui_impl_osx.h */,
 				4080A99F20B034280036BA46 /* imgui_impl_osx.mm */,
@@ -110,6 +110,14 @@
 				4080A9B220B034E40036BA46 /* Cocoa.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FE400212C74CA090056E080 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7FE400202C74C1700056E080 /* Cousine-Regular.ttf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

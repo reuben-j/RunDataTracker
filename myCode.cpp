@@ -16,15 +16,16 @@ namespace myCode {
 
 void renderMainWindow() {
     ImGuiIO& io = ImGui::GetIO(); (void)io;
-    ImFont* font1 = io.Fonts->AddFontFromFileTTF("Cousine-Regular.ttf", 25);
+//    ImFont* font2 = io.Fonts->AddFontFromFileTTF("/Users/reubenjarvela/Library/Fonts/Arial Unicode.ttf", 23.0f, NULL, io.Fonts->GetGlyphRangesDefault());
+//    
     
-    ImGui::PushFont(font1);
     
     static float distance = 0.00;
     static float time = 0.00;
     static float pace = 0.00;
     
     ImGui::Begin("Run Tracker");
+    
     ImGui::Text("Add details of your run:");
     
     ImGui::Text("Distance "); ImGui::SameLine();
@@ -44,9 +45,9 @@ void renderMainWindow() {
   
     
     
-    
     ImGui::End();
    
-    
+   
+
 }
 }

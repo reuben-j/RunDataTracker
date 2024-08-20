@@ -50,11 +50,10 @@
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // Enable Keyboard Controls
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
     
+    // font selection with a path that actually works!
+    ImFont* font1 = io.Fonts->AddFontFromFileTTF("/Users/reubenjarvela/Library/Fonts/Cousine-Regular.ttf", 15.0f, NULL, io.Fonts->GetGlyphRangesDefault());
     
-    io.Fonts->AddFontFromFileTTF("Cousine-Regular.ttf", 25);
-    ImFont* font1 = io.Fonts->AddFontFromFileTTF("Cousine-Regular.ttf", 25);
     
-
     // Setup Dear ImGui style
     ImGui::StyleColorsDark();
     //ImGui::StyleColorsLight();
@@ -91,7 +90,6 @@
     ImGui_ImplOpenGL2_NewFrame();
     ImGui_ImplOSX_NewFrame(self);
     ImGui::NewFrame();
-    
     myCode::renderMainWindow();
 
     // Our state (make them static = more or less global) as a convenience to keep the example terse.
