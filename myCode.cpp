@@ -16,9 +16,6 @@ namespace myCode {
 
 void renderMainWindow() {
     ImGuiIO& io = ImGui::GetIO(); (void)io;
-//    ImFont* font2 = io.Fonts->AddFontFromFileTTF("/Users/reubenjarvela/Library/Fonts/Arial Unicode.ttf", 23.0f, NULL, io.Fonts->GetGlyphRangesDefault());
-//    
-    
     
     static float distance = 0.00;
     static float time = 0.00;
