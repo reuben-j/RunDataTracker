@@ -49,6 +49,11 @@
     ImGuiIO& io = ImGui::GetIO(); (void)io;
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableKeyboard;     // Enable Keyboard Controls
     io.ConfigFlags |= ImGuiConfigFlags_NavEnableGamepad;      // Enable Gamepad Controls
+    
+    
+    io.Fonts->AddFontFromFileTTF("Cousine-Regular.ttf", 25);
+    ImFont* font1 = io.Fonts->AddFontFromFileTTF("Cousine-Regular.ttf", 25);
+    
 
     // Setup Dear ImGui style
     ImGui::StyleColorsDark();
@@ -73,6 +78,10 @@
     //io.Fonts->AddFontFromFileTTF("../../misc/fonts/Cousine-Regular.ttf", 15.0f);
     //ImFont* font = io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\ArialUni.ttf", 18.0f, nullptr, io.Fonts->GetGlyphRangesJapanese());
     //IM_ASSERT(font != nullptr);
+    
+    
+    
+    
 }
 
 -(void)updateAndDrawDemoView

@@ -53,6 +53,7 @@
 		5079822F257677FC0038A28D /* imgui_tables.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = imgui_tables.cpp; path = ../../imgui_tables.cpp; sourceTree = "<group>"; };
 		7FE4001D2C74B3880056E080 /* myCode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = myCode.cpp; sourceTree = "<group>"; };
 		7FE4001E2C74B3880056E080 /* myCode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = myCode.hpp; sourceTree = "<group>"; };
+		7FE400202C74C1700056E080 /* Cousine-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cousine-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 				4080A9AA20B0343C0036BA46 /* imgui_draw.cpp */,
 				4080A9A520B0343C0036BA46 /* imgui_internal.h */,
 				4080A99E20B034280036BA46 /* imgui_impl_opengl2.cpp */,
+				7FE400202C74C1700056E080 /* Cousine-Regular.ttf */,
 				4080A9A020B034280036BA46 /* imgui_impl_opengl2.h */,
 				4080A9A120B034280036BA46 /* imgui_impl_osx.h */,
 				4080A99F20B034280036BA46 /* imgui_impl_osx.mm */,
