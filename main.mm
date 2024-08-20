@@ -91,6 +91,7 @@
     ImGui_ImplOSX_NewFrame(self);
     ImGui::NewFrame();
     myCode::renderMainWindow();
+    myCode::renderSecondWindow();
 
     // Our state (make them static = more or less global) as a convenience to keep the example terse.
     static bool show_demo_window = true;

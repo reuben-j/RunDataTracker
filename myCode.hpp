@@ -15,4 +15,5 @@
 
 namespace myCode {
     void renderMainWindow();
+    void renderSecondWindow();
 }
