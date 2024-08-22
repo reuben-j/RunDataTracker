@@ -16,4 +16,5 @@
 namespace myCode {
     void renderMainWindow();
     void renderSecondWindow();
+    void lightDarkSwitch();
 }

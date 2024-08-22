@@ -55,8 +55,7 @@
     
     
     // Setup Dear ImGui style
-    // ImGui::StyleColorsDark();
-    ImGui::StyleColorsLight();
+    
 
     // Setup Platform/Renderer backends
     ImGui_ImplOSX_Init(self);
@@ -92,6 +91,7 @@
     ImGui::NewFrame();
     myCode::renderMainWindow();
     myCode::renderSecondWindow();
+    myCode::lightDarkSwitch();
 
     // Our state (make them static = more or less global) as a convenience to keep the example terse.
     static bool show_demo_window = true;

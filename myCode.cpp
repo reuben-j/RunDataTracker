@@ -156,4 +156,19 @@ void renderSecondWindow() {
     ImGui::End();
 }
 
+void lightDarkSwitch() {
+    ImGui::Begin("Settings");
+    ImGui::PushItemWidth(150);
+    static int styleInt = -1;
+    if(ImGui::Combo("Style Selector", &styleInt, "Dark\0Light\0Classic\0")) {
+        switch (styleInt) {
+            case 0: ImGui::StyleColorsDark(); break;
+            case 1: ImGui::StyleColorsLight(); break;
+            case 2: ImGui::StyleColorsClassic(); break;
+            default: ImGui::StyleColorsDark(); break;
+        }
+    }
+    ImGui::End();
+}
+
 }
