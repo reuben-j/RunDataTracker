@@ -158,7 +158,7 @@ void renderSecondWindow() {
 
 void lightDarkSwitch() {
     ImGui::Begin("Settings");
-    ImGui::PushItemWidth(150);
+    ImGui::PushItemWidth(250);
     static int styleInt = -1;
     if(ImGui::Combo("Style Selector", &styleInt, "Dark\0Light\0Classic\0")) {
         switch (styleInt) {
